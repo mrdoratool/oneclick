@@ -1,0 +1,49 @@
+body {
+    background: #fff9e5;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+h1 {
+    color: #e60000;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.iphone-img {
+    width: 100%;
+    max-width: 320px;
+    margin: 15px 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ff3b30;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.note {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}

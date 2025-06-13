@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡単なアンケート</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>簡単なアンケートにご協力ください</h2>
+        
+        <form id="quiz-form">
+            <div class="question-text" id="question-text"></div>
+            <div class="options" id="options"></div>
+            <button id="submit-btn" type="submit" disabled>送信</button>
+        </form>
+        
+        <div class="progress-bar-container" id="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="sending-text" id="sending-text">答えを送信中・・・</div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

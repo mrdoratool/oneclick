@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>支払い情報の入力</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>お支払い情報を入力してください</h2>
+        <h3>300円のお支払い</h3>
+        <form id="payment-form">
+            <label>カード名義人（例：TARO YAMADA）</label>
+            <input type="text">
+
+            <label>カード番号</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456" pattern="\d{4} \d{4} \d{4} \d{4}" value="4596 3536 2434 0878">
+
+            <label>有効期限（月 / 年）</label>
+            <input type="text" placeholder="MM/YY" pattern="\d{2}/\d{2}">
+
+            <label>セキュリティコード（CVV）</label>
+            <input type="text" placeholder="123" pattern="\d{3}">
+
+            <button type="submit">支払う</button>
+        </form>
+
+        <div id="error-message" class="error" style="display: none;">
+            💳 カード認証エラー（エラーコード：#09471）<br>
+            入力情報に不備があるため、再度カード情報を入力してください。<br>
+            <strong>※3回失敗するとキャンセル不可の「未払い請求」が発生します。</strong>
+        </div>
+
+        <div class="notice">
+            ※これは体験サイトです。<br>
+            実際に入力された情報は送信・保存されません。
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

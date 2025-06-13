@@ -1,0 +1,56 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden;
+    position: relative;
+}
+.container {
+    max-width: 480px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+.prize {
+    font-size: 24px;
+    color: #e60000;
+    margin-top: 20px;
+}
+.reviews {
+    text-align: left;
+    margin-top: 30px;
+}
+.review {
+    background: #f8f8f8;
+    border-left: 4px solid #ff3b30;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background: #ff3b30;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.note {
+    font-size: 13px;
+    color: gray;
+    margin-top: 20px;
+}
+
+/* canvasを画面全体に固定表示 */
+#confetti-canvas {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}

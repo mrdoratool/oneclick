@@ -1,0 +1,52 @@
+body {
+    background-color: #fff0f0;
+    font-family: sans-serif;
+    color: #900;
+    text-align: center;
+    padding: 40px 20px;
+    animation: flashBg 1s infinite alternate;
+}
+
+@keyframes flashBg {
+    0% { background-color: #fff0f0; }
+    100% { background-color: #ffe0e0; }
+}
+
+h1 {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.important {
+    font-size: 1.2em;
+    color: #c00;
+    margin: 10px 0 30px;
+}
+
+.info-box {
+    border: 3px solid red;
+    background: #fff;
+    padding: 25px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+.countdown {
+    font-size: 1.5em;
+    color: darkred;
+    margin: 20px auto;
+}
+
+.footer {
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 50px;
+}
+
+.label {
+    font-weight: bold;
+}

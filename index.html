@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>iPhone15 超格安キャンペーン</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>＼今だけ！新品iPhone15が300円！？／</h1>
+        <img src="./source/f_J0000042356.jpg" alt="iPhone15">
+        <p class="price">驚愕の価格：300円（税込）</p>
+        <div class="countdown">
+            在庫残りわずか！<br>
+            この特別価格はあと <span id="timer">30:00</span> で終了！
+        </div>
+        
+        <form onsubmit="event.preventDefault(); location.href='survey/';">
+            <input type="email" placeholder="メールアドレスを入力"><br>
+            <div class="checkbox">
+                <label><input type="checkbox" required> 18歳以上です</label><br>
+                <label><input type="checkbox" required> 利用規約に同意します</label>
+            </div>
+            <button type="submit">進む</button>
+        </form>
+        
+        <div class="specs">
+            <h3>📦 製品スペック</h3>
+            ・iPhone15 128GB（新品・未開封）<br>
+            ・カラー：ブラック／ホワイト／ブルー など<br>
+            ・5G対応 / A16チップ搭載 / 顔認証Face ID<br>
+            ・Apple正規保証1年付き（※実際には付きません）<br>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
